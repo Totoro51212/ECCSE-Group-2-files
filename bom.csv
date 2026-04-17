@@ -11,6 +11,5 @@
 "T2, T13, T14, T16, T17, T20",6," pMOS Transistor (MOSFET)"
 "R1, R10, R2",3,"220 Ω Resistor"
 "M1",1," DC Motor"
-"D3",1," Diode"
-"U2",1,"5.1 V Zener Diode"
+"D3","U2",2, " Diode"
 "R4, R5",2,"10 kΩ Resistor"
