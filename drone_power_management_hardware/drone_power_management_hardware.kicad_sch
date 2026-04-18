@@ -401,6 +401,210 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2088,7 +2292,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 76.2 0)
+		(at 201.93 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2096,8 +2300,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0173b8a1-6018-4625-8bb2-ee9fdc268a3e")
-		(property "Reference" "Q13"
-			(at 195.58 74.9299 0)
+		(property "Reference" "andp2"
+			(at 208.28 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,8 +2309,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 77.4699 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2319,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 73.66 0)
+			(at 207.01 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2328,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 76.2 0)
+			(at 201.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2337,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 76.2 0)
+			(at 201.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2357,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q13")
+					(reference "andp2")
 					(unit 1)
 				)
 			)
@@ -2169,7 +2373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f8c04f-9f1b-4df9-b62c-0457e64b4802")
-		(property "Reference" "Q2"
+		(property "Reference" "norSmalln2"
 			(at 86.36 59.6899 0)
 			(effects
 				(font
@@ -2178,7 +2382,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
+		(property "Value" "Small Signal nMOS"
 			(at 86.36 62.2299 0)
 			(effects
 				(font
@@ -2226,7 +2430,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q2")
+					(reference "norSmalln2")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ab52237-b52f-44c3-b158-4d0791cec7ac")
-		(property "Reference" "P2"
+		(property "Reference" "BackupVcc"
 			(at 36.195 82.55 0)
 			(effects
 				(font
@@ -2294,7 +2498,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "P2")
+					(reference "BackupVcc")
 					(unit 1)
 				)
 			)
@@ -2310,7 +2514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18c069f9-8fe2-4a83-8482-f7eb12d6d382")
-		(property "Reference" "Q11"
+		(property "Reference" "routingn2"
 			(at 170.18 110.4899 0)
 			(effects
 				(font
@@ -2319,7 +2523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 113.0299 0)
 			(effects
 				(font
@@ -2367,7 +2571,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q11")
+					(reference "routingn2")
 					(unit 1)
 				)
 			)
@@ -2383,7 +2587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d11f1c4-cf7e-4299-af42-77c144a275d5")
-		(property "Reference" "U5"
+		(property "Reference" "backupamp"
 			(at 144.78 62.1598 0)
 			(effects
 				(font
@@ -2453,7 +2657,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "U5")
+					(reference "backupamp")
 					(unit 1)
 				)
 			)
@@ -2469,7 +2673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b20f14d-5c13-471f-93c6-f5e927e9dfcb")
-		(property "Reference" "D2"
+		(property "Reference" "YellowLight"
 			(at 110.3773 51.2984 0)
 			(effects
 				(font
@@ -2477,7 +2681,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Yellow LED"
 			(at 110.3773 53.8384 0)
 			(effects
 				(font
@@ -2530,7 +2734,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "D2")
+					(reference "YellowLight")
 					(unit 1)
 				)
 			)
@@ -2538,7 +2742,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 49.53 0)
+		(at 201.93 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2546,8 +2750,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b95659a-56da-450c-9722-8d20346e0e5a")
-		(property "Reference" "Q4"
-			(at 195.58 48.2599 0)
+		(property "Reference" "notpMOS"
+			(at 208.28 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,8 +2759,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 50.7999 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2769,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 46.99 0)
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +2787,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 49.53 0)
+			(at 201.93 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2807,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q4")
+					(reference "notpMOS")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2815,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_DGS")
-		(at 59.69 60.96 0)
+		(at 48.26 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2619,8 +2823,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "401b705b-8870-4cb8-9432-fe7f33dc7c3c")
-		(property "Reference" "Q6"
-			(at 66.04 59.6899 0)
+		(property "Reference" "norSmalln1"
+			(at 54.61 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,8 +2832,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DGS"
-			(at 66.04 62.2299 0)
+		(property "Value" "Small Signal nMOS"
+			(at 54.61 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2842,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 64.77 58.42 0)
+			(at 53.34 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2851,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2860,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/gate/source"
-			(at 59.69 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2880,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q6")
+					(reference "norSmalln1")
 					(unit 1)
 				)
 			)
@@ -2692,7 +2896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "421004d5-3b7d-46cc-8ee8-78f5b56b0d3f")
-		(property "Reference" "R1"
+		(property "Reference" "notR1"
 			(at 124.46 96.5199 0)
 			(effects
 				(font
@@ -2746,7 +2950,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "R1")
+					(reference "notR1")
 					(unit 1)
 				)
 			)
@@ -2762,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434f70a1-f44d-4f7e-b003-f59cf0d5bdd5")
-		(property "Reference" "D3"
+		(property "Reference" "RedLight"
 			(at 110.1725 60.96 0)
 			(effects
 				(font
@@ -2770,7 +2974,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Red LED"
 			(at 110.1725 63.5 0)
 			(effects
 				(font
@@ -2823,7 +3027,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "D3")
+					(reference "RedLight")
 					(unit 1)
 				)
 			)
@@ -2839,7 +3043,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4636ea9a-985b-4b74-b8d9-0d84e371b4a9")
-		(property "Reference" "D5"
+		(property "Reference" "loadD2"
 			(at 138.1125 104.14 0)
 			(effects
 				(font
@@ -2847,7 +3051,7 @@
 				)
 			)
 		)
-		(property "Value" "SS32"
+		(property "Value" "Diode"
 			(at 138.1125 106.68 0)
 			(effects
 				(font
@@ -2891,7 +3095,104 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "D5")
+					(reference "loadD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 27.94 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fb5e9aa-f91d-483d-aff5-d89deb93907a")
+		(property "Reference" "ThrBT"
+			(at 31.75 29.9084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.2V"
+			(at 31.75 32.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_1057_1x2032"
+			(at 27.94 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 31.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1fe8d375-cf74-474f-95bc-bea57349671d")
+		)
+		(pin "1"
+			(uuid "4bcb1cb4-3ca8-4b8c-9fac-207215bf9268")
+		)
+		(instances
+			(project "drone_power_management_hardware"
+				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
+					(reference "ThrBT")
 					(unit 1)
 				)
 			)
@@ -2907,7 +3208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "574402ac-a2ed-4e72-b0b8-5321497c15fd")
-		(property "Reference" "R4"
+		(property "Reference" "loadR1"
 			(at 151.13 96.5199 0)
 			(effects
 				(font
@@ -2961,7 +3262,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "R4")
+					(reference "loadR1")
 					(unit 1)
 				)
 			)
@@ -2977,7 +3278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b03744-350a-45bf-938f-e10722087dca")
-		(property "Reference" "U4"
+		(property "Reference" "powergoodamp"
 			(at 144.78 44.3798 0)
 			(effects
 				(font
@@ -3047,77 +3348,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 121.92 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67fa09e2-14fc-487a-a780-0c9ea6747c67")
-		(property "Reference" "R3"
-			(at 124.46 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220R"
-			(at 124.46 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 122.936 118.364 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 121.92 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd9bc9e7-b8f3-47cd-bb7a-6f4726b79d19")
-		)
-		(pin "2"
-			(uuid "087e3be2-09c6-44b3-bb5e-29e8cbcbba0e")
-		)
-		(instances
-			(project "drone_power_management_hardware"
-				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "R3")
+					(reference "powergoodamp")
 					(unit 1)
 				)
 			)
@@ -3125,7 +3356,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 59.69 48.26 0)
+		(at 48.26 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,8 +3364,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75c59fbc-9ff4-4351-9394-77e4cba26c12")
-		(property "Reference" "Q5"
-			(at 66.04 46.9899 0)
+		(property "Reference" "norSmallp1"
+			(at 54.61 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,8 +3373,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 66.04 49.5299 0)
+		(property "Value" "Small Signal pMOS"
+			(at 54.61 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3383,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 64.77 45.72 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3401,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 59.69 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3421,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q5")
+					(reference "norSmallp1")
 					(unit 1)
 				)
 			)
@@ -3206,7 +3437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d8e7e4-5272-4282-8c9a-6a4c19527baf")
-		(property "Reference" "Q9"
+		(property "Reference" "andn3"
 			(at 170.18 85.0899 0)
 			(effects
 				(font
@@ -3215,7 +3446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 87.6299 0)
 			(effects
 				(font
@@ -3263,7 +3494,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q9")
+					(reference "andn3")
 					(unit 1)
 				)
 			)
@@ -3279,7 +3510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88f95d2c-e301-427a-b1e3-c6f2b5942f21")
-		(property "Reference" "Q1"
+		(property "Reference" "norSmallp2"
 			(at 86.36 46.9899 0)
 			(effects
 				(font
@@ -3288,7 +3519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
+		(property "Value" "Small Signal pMOS"
 			(at 86.36 49.5299 0)
 			(effects
 				(font
@@ -3336,7 +3567,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q1")
+					(reference "norSmallp2")
 					(unit 1)
 				)
 			)
@@ -3352,7 +3583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a3ea9ce-2603-4cc3-9454-18bb47067143")
-		(property "Reference" "D4"
+		(property "Reference" "loadD1"
 			(at 138.1125 92.71 0)
 			(effects
 				(font
@@ -3360,7 +3591,7 @@
 				)
 			)
 		)
-		(property "Value" "SS32"
+		(property "Value" "Diode"
 			(at 138.1125 95.25 0)
 			(effects
 				(font
@@ -3404,7 +3635,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "D4")
+					(reference "loadD1")
 					(unit 1)
 				)
 			)
@@ -3420,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e32b2d1-d4d6-490b-9a23-f9d792646c2c")
-		(property "Reference" "Q8"
+		(property "Reference" "andn2"
 			(at 170.18 73.6599 0)
 			(effects
 				(font
@@ -3429,7 +3660,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 76.1999 0)
 			(effects
 				(font
@@ -3477,7 +3708,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q8")
+					(reference "andn2")
 					(unit 1)
 				)
 			)
@@ -3493,7 +3724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9daa966b-29aa-4fd5-ad38-8e8610b79e89")
-		(property "Reference" "P1"
+		(property "Reference" "PowerGoodVcc"
 			(at 71.755 83.82 0)
 			(effects
 				(font
@@ -3545,7 +3776,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "P1")
+					(reference "PowerGoodVcc")
 					(unit 1)
 				)
 			)
@@ -3561,7 +3792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9de37fe0-a10d-46a7-83c8-582fbca9a0ab")
-		(property "Reference" "Q7"
+		(property "Reference" "andn1"
 			(at 170.18 60.9599 0)
 			(effects
 				(font
@@ -3570,7 +3801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 63.4999 0)
 			(effects
 				(font
@@ -3618,7 +3849,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q7")
+					(reference "andn1")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3857,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 62.23 0)
+		(at 201.93 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3634,8 +3865,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a147e3df-99fc-4608-bfc2-015a7c81290c")
-		(property "Reference" "Q12"
-			(at 195.58 60.9599 0)
+		(property "Reference" "andp1"
+			(at 208.28 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,8 +3874,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 63.4999 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3884,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 59.69 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 62.23 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3902,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 62.23 0)
+			(at 201.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +3922,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q12")
+					(reference "andp1")
 					(unit 1)
 				)
 			)
@@ -3707,7 +3938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37a9740-9311-495d-af75-33fe442f82b5")
-		(property "Reference" "D1"
+		(property "Reference" "GreenLight"
 			(at 110.1725 41.91 0)
 			(effects
 				(font
@@ -3715,7 +3946,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green LED"
 			(at 110.1725 44.45 0)
 			(effects
 				(font
@@ -3768,7 +3999,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "D1")
+					(reference "GreenLight")
 					(unit 1)
 				)
 			)
@@ -3784,7 +4015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8142f98-883b-47a1-a527-a0a27564b64c")
-		(property "Reference" "R5"
+		(property "Reference" "loadR2"
 			(at 151.13 106.6799 0)
 			(effects
 				(font
@@ -3838,75 +4069,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 26.67 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db2cc8bb-b8d5-4ddd-b6bc-7895c05ff8a6")
-		(property "Reference" "P4"
-			(at 27.305 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 27.305 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
-			(at 26.67 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 26.67 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef6b8c4d-a684-4219-9538-9cb223c0aa94")
-		)
-		(pin "2"
-			(uuid "d914b170-7893-443b-bf0f-5c089c6f73d2")
-		)
-		(instances
-			(project "drone_power_management_hardware"
-				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "P4")
+					(reference "loadR2")
 					(unit 1)
 				)
 			)
@@ -3914,7 +4077,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 101.6 0)
+		(at 201.93 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3922,8 +4085,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0cd68a3-0bb9-4f72-b07c-38f5f71f95ea")
-		(property "Reference" "Q15"
-			(at 195.58 100.3299 0)
+		(property "Reference" "routingp1"
+			(at 208.28 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,8 +4094,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 102.8699 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +4104,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 99.06 0)
+			(at 207.01 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +4113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 101.6 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +4122,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 101.6 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4142,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q15")
+					(reference "routingp1")
 					(unit 1)
 				)
 			)
@@ -3987,7 +4150,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 114.3 0)
+		(at 201.93 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3995,8 +4158,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e546e37f-a356-4511-a2b4-5790e45d142b")
-		(property "Reference" "Q16"
-			(at 195.58 113.0299 0)
+		(property "Reference" "routingp2"
+			(at 208.28 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,8 +4167,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 115.5699 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4177,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 111.76 0)
+			(at 207.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 114.3 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4195,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 114.3 0)
+			(at 201.93 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4215,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q16")
+					(reference "routingp2")
 					(unit 1)
 				)
 			)
@@ -4068,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e735edc1-20eb-49b7-88fc-5b1d85c21b9d")
-		(property "Reference" "M1"
+		(property "Reference" "Load"
 			(at 48.26 114.2999 0)
 			(effects
 				(font
@@ -4077,7 +4240,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "DC Motor"
 			(at 48.26 116.8399 0)
 			(effects
 				(font
@@ -4122,7 +4285,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "M1")
+					(reference "Load")
 					(unit 1)
 				)
 			)
@@ -4138,7 +4301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb8aafdc-bb10-4fb4-b34b-9025c538dd88")
-		(property "Reference" "Q3"
+		(property "Reference" "notnMOS"
 			(at 170.18 48.2599 0)
 			(effects
 				(font
@@ -4147,7 +4310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 50.7999 0)
 			(effects
 				(font
@@ -4195,7 +4358,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q3")
+					(reference "notnMOS")
 					(unit 1)
 				)
 			)
@@ -4211,7 +4374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6f434de-200f-4290-8763-06fdc6bd6e19")
-		(property "Reference" "R2"
+		(property "Reference" "notR2"
 			(at 124.46 106.6799 0)
 			(effects
 				(font
@@ -4265,7 +4428,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "R2")
+					(reference "notR2")
 					(unit 1)
 				)
 			)
@@ -4273,7 +4436,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 189.23 88.9 0)
+		(at 201.93 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4281,8 +4444,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7997aa6-fe78-4fbe-b441-4bba805e09a4")
-		(property "Reference" "Q14"
-			(at 195.58 87.6299 0)
+		(property "Reference" "andp3"
+			(at 208.28 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,8 +4453,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_PMOS_SGD"
-			(at 195.58 90.1699 0)
+		(property "Value" "pMOS Transistor (MOSFET)"
+			(at 208.28 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4463,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 194.31 86.36 0)
+			(at 207.01 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4472,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 88.9 0)
+			(at 201.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4481,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 189.23 88.9 0)
+			(at 201.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +4501,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q14")
+					(reference "andp3")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc45d00c-577f-42d4-a54d-4a209d831f06")
-		(property "Reference" "Q10"
+		(property "Reference" "routingn1"
 			(at 170.18 97.7899 0)
 			(effects
 				(font
@@ -4363,7 +4526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "nMOS Transistor (MOSFET)"
 			(at 170.18 100.3299 0)
 			(effects
 				(font
@@ -4411,7 +4574,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Q10")
+					(reference "routingn1")
 					(unit 1)
 				)
 			)
