@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "62dff5ab-9a67-4e69-9b34-907d3948e181")
 	(paper "A4")
+	(title_block
+		(title "Drone Power Management Physical")
+		(date "2026-04-18")
+		(rev "v1.0")
+		(company "Section 3 Group 2")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM741"
 			(pin_names
@@ -2423,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 21.59) (xy 63.5 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6b9da8-67a1-4c1c-b49f-9ad2d776dbe6")
-	)
-	(wire
-		(pts
 			(xy 222.25 123.19) (xy 222.25 157.48)
 		)
 		(stroke
@@ -2520,6 +2516,16 @@
 			(type default)
 		)
 		(uuid "269f440c-0b74-47c1-82ed-be522b4f742b")
+	)
+	(wire
+		(pts
+			(xy 106.68 20.32) (xy 110.49 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f119da-c1c7-401e-af49-b97f289ebc1e")
 	)
 	(wire
 		(pts
@@ -2720,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "5bb11bd3-8362-4814-bab8-3f977be58eaa")
+	)
+	(wire
+		(pts
+			(xy 67.31 19.05) (xy 63.5 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6230b9-9f55-4863-a136-587bd9e2ea91")
 	)
 	(wire
 		(pts
@@ -2983,6 +2999,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05a7c46-b052-4d68-a133-4813d2e5410f")
+	)
+	(wire
+		(pts
 			(xy 264.16 45.72) (xy 271.78 45.72)
 		)
 		(stroke
@@ -3223,16 +3249,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 20.32) (xy 109.22 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6021f5d-79d0-49e3-8dea-6855713c760f")
-	)
-	(wire
-		(pts
 			(xy 21.59 58.42) (xy 21.59 60.96)
 		)
 		(stroke
@@ -3270,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "e4d7ae61-6746-4096-8370-94f6358bc3d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 22.86) (xy 110.49 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea8b75b5-64bb-4d29-af00-8082b5567b77")
 	)
 	(wire
 		(pts
@@ -3323,16 +3349,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 22.86) (xy 106.68 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39ae1c4-19e0-4229-963f-81e71777cfe3")
-	)
-	(wire
-		(pts
 			(xy 256.54 66.04) (xy 256.54 67.31)
 		)
 		(stroke
@@ -3360,16 +3376,6 @@
 			(type default)
 		)
 		(uuid "f8e4dfca-c44f-4dc2-bd63-df06b3174184")
-	)
-	(wire
-		(pts
-			(xy 66.04 19.05) (xy 63.5 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe64b9c6-d9d7-489c-bdd8-90144d21e7d4")
 	)
 	(wire
 		(pts
@@ -3823,7 +3829,7 @@
 	)
 	(global_label "Ground"
 		(shape input)
-		(at 66.04 21.59 0)
+		(at 67.31 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3833,7 +3839,7 @@
 		)
 		(uuid "5b55d838-bb27-4ad5-a8aa-fc4f6d121caf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.6774 21.59 0)
+			(at 76.9474 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3873,7 @@
 	)
 	(global_label "POWER_GOOD"
 		(shape input)
-		(at 109.22 20.32 0)
+		(at 110.49 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3877,7 +3883,7 @@
 		)
 		(uuid "6a5f154b-22bc-4731-a923-5b5e47eade68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.8447 20.32 0)
+			(at 126.1147 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4223,7 @@
 			)
 		)
 	)
-	(global_label "norOut"
+	(global_label "notOut"
 		(shape input)
 		(at 88.9 171.45 270)
 		(fields_autoplaced yes)
@@ -4229,7 +4235,7 @@
 		)
 		(uuid "a89acdb3-3dd7-468b-8703-c62b680ce173")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 180.7246 90)
+			(at 88.9 180.6641 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +4335,7 @@
 	)
 	(global_label "Ground"
 		(shape input)
-		(at 109.22 22.86 0)
+		(at 110.49 20.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4339,7 +4345,7 @@
 		)
 		(uuid "c4bb6d45-ed6f-46d2-96e6-de1321eae986")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.8574 22.86 0)
+			(at 120.1274 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4399,7 @@
 			)
 		)
 	)
-	(global_label "norOut"
+	(global_label "notOut"
 		(shape input)
 		(at 271.78 67.31 0)
 		(fields_autoplaced yes)
@@ -4405,7 +4411,7 @@
 		)
 		(uuid "da06fcbd-a1d3-486b-bf24-b22145ff31b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 281.0546 67.31 0)
+			(at 280.9941 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +4467,7 @@
 	)
 	(global_label "POWER_GOOD_BACKUP"
 		(shape input)
-		(at 66.04 19.05 0)
+		(at 67.31 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4471,7 +4477,7 @@
 		)
 		(uuid "ecada5b7-a3f3-430e-82fc-4d34321296ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.1314 19.05 0)
+			(at 91.4014 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ab52237-b52f-44c3-b158-4d0791cec7ac")
-		(property "Reference" "BackupVcc"
+		(property "Reference" "BackupVcc1"
 			(at 59.055 13.97 0)
 			(effects
 				(font
@@ -4755,7 +4761,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "BackupVcc")
+					(reference "BackupVcc1")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d11f1c4-cf7e-4299-af42-77c144a275d5")
-		(property "Reference" "backupamp"
+		(property "Reference" "backupamp1"
 			(at 59.69 123.1198 0)
 			(effects
 				(font
@@ -4912,7 +4918,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "backupamp")
+					(reference "backupamp1")
 					(unit 1)
 				)
 			)
@@ -4928,7 +4934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b20f14d-5c13-471f-93c6-f5e927e9dfcb")
-		(property "Reference" "YellowLight"
+		(property "Reference" "YellowLight1"
 			(at 54.2925 179.07 0)
 			(effects
 				(font
@@ -4989,7 +4995,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "YellowLight")
+					(reference "YellowLight1")
 					(unit 1)
 				)
 			)
@@ -5005,7 +5011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b95659a-56da-450c-9722-8d20346e0e5a")
-		(property "Reference" "notpMOS"
+		(property "Reference" "notpMOS1"
 			(at 72.39 166.37 90)
 			(effects
 				(font
@@ -5060,7 +5066,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "notpMOS")
+					(reference "notpMOS1")
 					(unit 1)
 				)
 			)
@@ -5217,7 +5223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434f70a1-f44d-4f7e-b003-f59cf0d5bdd5")
-		(property "Reference" "RedLight"
+		(property "Reference" "RedLight1"
 			(at 216.8525 116.84 0)
 			(effects
 				(font
@@ -5278,7 +5284,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "RedLight")
+					(reference "RedLight1")
 					(unit 1)
 				)
 			)
@@ -5364,7 +5370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fb5e9aa-f91d-483d-aff5-d89deb93907a")
-		(property "Reference" "ThrBT"
+		(property "Reference" "ThrBT1"
 			(at 29.7815 13.97 90)
 			(effects
 				(font
@@ -5443,7 +5449,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "ThrBT")
+					(reference "ThrBT1")
 					(unit 1)
 				)
 			)
@@ -5527,7 +5533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b03744-350a-45bf-938f-e10722087dca")
-		(property "Reference" "powergoodamp"
+		(property "Reference" "powergoodamp1"
 			(at 60.96 97.7198 0)
 			(effects
 				(font
@@ -5597,7 +5603,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "powergoodamp")
+					(reference "powergoodamp1")
 					(unit 1)
 				)
 			)
@@ -5902,7 +5908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c08d311-3ee8-461a-b893-218c702b6f83")
-		(property "Reference" "ConnectedGround"
+		(property "Reference" "#ConnectedGround0101"
 			(at 15.24 41.91 0)
 			(effects
 				(font
@@ -5952,7 +5958,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "ConnectedGround")
+					(reference "#ConnectedGround0101")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9daa966b-29aa-4fd5-ad38-8e8610b79e89")
-		(property "Reference" "PowerGoodVcc"
+		(property "Reference" "PowerGoodVcc1"
 			(at 102.235 15.24 0)
 			(effects
 				(font
@@ -6093,7 +6099,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "PowerGoodVcc")
+					(reference "PowerGoodVcc1")
 					(unit 1)
 				)
 			)
@@ -6255,7 +6261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a37a9740-9311-495d-af75-33fe442f82b5")
-		(property "Reference" "GreenLight"
+		(property "Reference" "GreenLight1"
 			(at 100.0125 139.7 0)
 			(effects
 				(font
@@ -6316,7 +6322,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "GreenLight")
+					(reference "GreenLight1")
 					(unit 1)
 				)
 			)
@@ -6542,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e735edc1-20eb-49b7-88fc-5b1d85c21b9d")
-		(property "Reference" "Load"
+		(property "Reference" "Load1"
 			(at 26.67 67.3099 0)
 			(effects
 				(font
@@ -6596,7 +6602,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "Load")
+					(reference "Load1")
 					(unit 1)
 				)
 			)
@@ -6612,7 +6618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb8aafdc-bb10-4fb4-b34b-9025c538dd88")
-		(property "Reference" "notnMOS"
+		(property "Reference" "notnMOS1"
 			(at 106.68 166.37 90)
 			(effects
 				(font
@@ -6667,7 +6673,7 @@
 		(instances
 			(project "drone_power_management_hardware"
 				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
-					(reference "notnMOS")
+					(reference "notnMOS1")
 					(unit 1)
 				)
 			)
