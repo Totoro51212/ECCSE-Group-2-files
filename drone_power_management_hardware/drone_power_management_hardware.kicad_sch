@@ -2157,32 +2157,565 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
-	(global_label "OP-AMPS"
+	(junction
+		(at 91.44 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0502facc-0e88-49e7-bc50-a0befd3b24fa")
+	)
+	(junction
+		(at 80.01 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e0342d-30e2-4507-bcc2-442018e0bb27")
+	)
+	(no_connect
+		(at 142.24 83.82)
+		(uuid "53f4edcf-6bd8-4b84-a0e3-e63b791e98de")
+	)
+	(no_connect
+		(at 143.51 58.42)
+		(uuid "8160aa90-1684-4dfb-a2a8-169a5b93b4fc")
+	)
+	(no_connect
+		(at 146.05 58.42)
+		(uuid "992f3d8a-242d-4e30-80f9-c75d1842372b")
+	)
+	(no_connect
+		(at 144.78 83.82)
+		(uuid "f5a20bc6-24a8-4c94-875d-aff6b7a2f1d7")
+	)
+	(wire
+		(pts
+			(xy 66.04 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6b9da8-67a1-4c1c-b49f-9ad2d776dbe6")
+	)
+	(wire
+		(pts
+			(xy 80.01 175.26) (xy 129.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c51ecd8-d3a1-45d7-8755-e0001b9d4d87")
+	)
+	(wire
+		(pts
+			(xy 48.26 175.26) (xy 80.01 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddc8914-f309-48a4-bf22-c81ba141d0c1")
+	)
+	(wire
+		(pts
+			(xy 139.7 68.58) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1852c009-2aa9-4350-8e6b-b5cc2497840b")
+	)
+	(wire
+		(pts
+			(xy 40.64 180.34) (xy 40.64 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2840dc52-7360-4d54-8a73-02d94cb0e34f")
+	)
+	(wire
+		(pts
+			(xy 140.97 35.56) (xy 140.97 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f8514b7-d6dd-4d40-8f6f-b4a0baf3b96d")
+	)
+	(wire
+		(pts
+			(xy 15.24 30.48) (xy 15.24 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3793ef28-bb6c-46e6-8710-3982730d93ee")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 129.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c784b8-ab1a-47d7-ad21-a44b30f7f921")
+	)
+	(wire
+		(pts
+			(xy 15.24 163.83) (xy 91.44 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571511ec-9975-459f-bebd-59e74ac6e177")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e6a221-69d6-4e76-bd9d-f8904ec0aab2")
+	)
+	(wire
+		(pts
+			(xy 137.16 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598ba267-5928-4b1c-88b2-4c4c91a7a289")
+	)
+	(wire
+		(pts
+			(xy 29.21 177.8) (xy 29.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a19d555-17f9-4e6e-8ffb-e4121207950e")
+	)
+	(wire
+		(pts
+			(xy 21.59 73.66) (xy 21.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a63ebb8-0b5b-4360-9788-9962971828cc")
+	)
+	(wire
+		(pts
+			(xy 91.44 163.83) (xy 91.44 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af920ea-43c1-4335-a7a8-df21ae6ba480")
+	)
+	(wire
+		(pts
+			(xy 85.09 134.62) (xy 97.79 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684b4188-de57-45d2-8bcd-54db95eff6c9")
+	)
+	(wire
+		(pts
+			(xy 132.08 53.34) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875ea395-e1e7-49bf-b86a-80d618661d5a")
+	)
+	(wire
+		(pts
+			(xy 87.63 168.91) (xy 99.06 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881c6ce2-ccbc-4e72-b084-8d6cb159c724")
+	)
+	(wire
+		(pts
+			(xy 123.19 153.67) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f53ca3-d7e0-450b-bb36-1271a64aac90")
+	)
+	(wire
+		(pts
+			(xy 91.44 153.67) (xy 123.19 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9b8fa5-4c67-4731-82b6-abaf62c7affa")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a990d262-e28b-492d-860c-88b4539c7704")
+	)
+	(wire
+		(pts
+			(xy 21.59 25.4) (xy 25.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae48d00f-c0cc-477d-a18c-cde0ccb54fd5")
+	)
+	(wire
+		(pts
+			(xy 38.1 21.59) (xy 33.02 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b271a137-a989-4722-9f10-6b2789f139ff")
+	)
+	(wire
+		(pts
+			(xy 130.81 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b626a81c-9f5e-4c3b-a241-51fb3df56641")
+	)
+	(wire
+		(pts
+			(xy 40.64 195.58) (xy 15.24 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c35951-6a0a-4f7a-b2c5-d45711c1f258")
+	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 105.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25c6e07-ff4c-48ee-a089-24d152ebddd3")
+	)
+	(wire
+		(pts
+			(xy 63.5 185.42) (xy 80.01 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b5e870-4bfd-4850-976d-570a8ec4d2e4")
+	)
+	(wire
+		(pts
+			(xy 106.68 20.32) (xy 109.22 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6021f5d-79d0-49e3-8dea-6855713c760f")
+	)
+	(wire
+		(pts
+			(xy 15.24 195.58) (xy 15.24 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc69257f-0094-4f39-bddc-d99564733130")
+	)
+	(wire
+		(pts
+			(xy 29.21 175.26) (xy 40.64 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0a48da-1729-480c-8c9d-2758bc8ac0dc")
+	)
+	(wire
+		(pts
+			(xy 72.39 180.34) (xy 40.64 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1edd123-a762-4aa0-8d87-f17059fe8aa6")
+	)
+	(wire
+		(pts
+			(xy 99.06 158.75) (xy 129.54 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f251bffd-8f07-4276-a9d0-c314d2427747")
+	)
+	(wire
+		(pts
+			(xy 109.22 22.86) (xy 106.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39ae1c4-19e0-4229-963f-81e71777cfe3")
+	)
+	(wire
+		(pts
+			(xy 25.4 25.4) (xy 25.4 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e4dfca-c44f-4dc2-bd63-df06b3174184")
+	)
+	(wire
+		(pts
+			(xy 66.04 19.05) (xy 63.5 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe64b9c6-d9d7-489c-bdd8-90144d21e7d4")
+	)
+	(wire
+		(pts
+			(xy 132.08 48.26) (xy 135.89 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff6fabb1-a2a1-4c24-a182-90213823ad83")
+	)
+	(label "NOT Gate"
+		(at 57.15 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ab04ede-b832-4519-88ee-73f10f1edd50")
+	)
+	(global_label "POWER_GOOD"
 		(shape input)
-		(at 132.08 39.37 0)
+		(at 132.08 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "10d6c83f-4e5d-49c6-9491-bb66bf273b81")
+		(uuid "11f54ec2-04a7-4df2-b4a0-db35af36f3af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.2576 39.37 0)
+			(at 116.4553 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "POWER_GOOD"
+	(global_label "3.2v power"
 		(shape input)
-		(at 67.31 80.01 0)
+		(at 132.08 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19d9eb42-fa6c-41ff-b46b-a50540dc30b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6325 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 85.09 142.24 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "215e7e73-2c1a-4e24-ae78-5e5d5363ade5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 151.8774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.2v power"
+		(shape input)
+		(at 140.97 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2190,9 +2723,9 @@
 			)
 			(justify left)
 		)
-		(uuid "16fd178c-bed7-41db-bd35-eb01bf3c6cfd")
+		(uuid "2b4f48c6-454a-4b6d-ad2b-802cd08847fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.9347 80.01 0)
+			(at 154.4175 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2737,73 @@
 	)
 	(global_label "3.2v power"
 		(shape input)
-		(at 29.21 24.13 0)
+		(at 87.63 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2eca897e-639e-473a-932c-31d3f864663a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.1825 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_GOOD_BACKUP"
+		(shape input)
+		(at 130.81 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30368823-9536-492e-bf4f-f8bc5270be9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.7186 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 29.21 185.42 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a91f8f2-7b00-4163-bffb-2aaca261cdf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.21 195.0574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 15.24 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2212,9 +2811,9 @@
 			)
 			(justify left)
 		)
-		(uuid "2b4f48c6-454a-4b6d-ad2b-802cd08847fe")
+		(uuid "40bf85df-908e-4c18-b5bf-280f3e35e708")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6575 24.13 0)
+			(at 24.8774 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,9 +2823,9 @@
 			)
 		)
 	)
-	(global_label "large mosfets"
+	(global_label "3.2v power"
 		(shape input)
-		(at 167.64 40.64 0)
+		(at 38.1 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2234,9 +2833,273 @@
 			)
 			(justify left)
 		)
-		(uuid "7490ab15-7597-4f32-ad90-3766e35dd2af")
+		(uuid "418c5910-49ce-4e39-8004-95cc129b252b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.8693 40.64 0)
+			(at 51.5475 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "goodAmpOut"
+		(shape input)
+		(at 123.19 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47699b2f-1541-474d-afb5-4313a84f782e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.9073 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "goodAmpOut"
+		(shape input)
+		(at 151.13 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54f23645-fc03-4a6d-aada-d39b92b2ee9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.8473 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 66.04 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b55d838-bb27-4ad5-a8aa-fc4f6d121caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.6774 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_GOOD"
+		(shape input)
+		(at 109.22 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a5f154b-22bc-4731-a923-5b5e47eade68")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8447 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 21.59 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "765593b8-259d-4fee-8c71-ba68be1730de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 31.2274 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 138.43 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8201e498-7344-4b0f-b957-c7c177d051f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.7926 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.2v power"
+		(shape input)
+		(at 139.7 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86a7caa1-d1a8-4d54-b0a0-1f835db1111b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.1475 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 21.59 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ea14a7c-8990-4623-9f8d-47ca34c8f3e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.9526 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "goodandin"
+		(shape input)
+		(at 29.21 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "953e6998-05e1-48c8-a22b-c4219942ad3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.428 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "backupAmpOut"
+		(shape input)
+		(at 149.86 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ce5356c-de2c-44e4-aad6-b19d6eca8d96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.694 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 137.16 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae5ab36c-9f72-4dd4-b2b4-0908eaca9e89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.5226 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 109.22 22.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4bb6d45-ed6f-46d2-96e6-de1321eae986")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.8574 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +3111,7 @@
 	)
 	(global_label "POWER_GOOD_BACKUP"
 		(shape input)
-		(at 30.48 78.74 0)
+		(at 66.04 19.05 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2258,7 +3121,7 @@
 		)
 		(uuid "ecada5b7-a3f3-430e-82fc-4d34321296ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5714 78.74 0)
+			(at 90.1314 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,31 +3131,53 @@
 			)
 		)
 	)
-	(global_label "Small mosfets"
+	(global_label "3.2v power"
 		(shape input)
-		(at 64.77 39.37 0)
+		(at 130.81 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "f8a18574-8bca-4e7f-ab0d-823c1e17b70e")
+		(uuid "f7a70ea8-65f9-4eaa-ba54-f885ed51abce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.5435 39.37 0)
+			(at 117.3625 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Ground"
+		(shape input)
+		(at 63.5 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fad58e59-60ad-4480-ae3c-252a50785230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.8626 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 76.2 0)
+		(at 229.87 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2301,7 +3186,7 @@
 		(fields_autoplaced yes)
 		(uuid "0173b8a1-6018-4625-8bb2-ee9fdc268a3e")
 		(property "Reference" "andp2"
-			(at 208.28 74.9299 0)
+			(at 236.22 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +3195,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 77.4699 0)
+			(at 236.22 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +3204,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 73.66 0)
+			(at 234.95 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 76.2 0)
+			(at 229.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +3222,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 76.2 0)
+			(at 229.87 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +3323,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 35.56 87.63 0)
+		(at 58.42 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2447,7 +3332,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ab52237-b52f-44c3-b158-4d0791cec7ac")
 		(property "Reference" "BackupVcc"
-			(at 36.195 82.55 0)
+			(at 59.055 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +3340,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 36.195 85.09 0)
+			(at 59.055 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +3348,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
-			(at 35.56 87.63 0)
+			(at 58.42 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +3357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 87.63 0)
+			(at 58.42 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +3366,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 35.56 87.63 0)
+			(at 58.42 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2506,7 +3391,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 111.76 0)
+		(at 191.77 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2515,7 +3400,7 @@
 		(fields_autoplaced yes)
 		(uuid "18c069f9-8fe2-4a83-8482-f7eb12d6d382")
 		(property "Reference" "routingn2"
-			(at 170.18 110.4899 0)
+			(at 198.12 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +3409,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 113.0299 0)
+			(at 198.12 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2533,7 +3418,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 109.22 0)
+			(at 196.85 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +3427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 111.76 0)
+			(at 191.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +3436,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 111.76 0)
+			(at 191.77 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +3464,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM741")
-		(at 134.62 68.58 0)
+		(at 142.24 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2588,7 +3473,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d11f1c4-cf7e-4299-af42-77c144a275d5")
 		(property "Reference" "backupamp"
-			(at 144.78 62.1598 0)
+			(at 152.4 69.7798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +3481,7 @@
 			)
 		)
 		(property "Value" "LM741"
-			(at 144.78 64.6998 0)
+			(at 152.4 72.3198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +3489,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 135.89 67.31 0)
+			(at 143.51 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3498,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
-			(at 138.43 64.77 0)
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +3507,7 @@
 			)
 		)
 		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
-			(at 134.62 68.58 0)
+			(at 142.24 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +3550,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 111.9648 57.6484 0)
+		(at 44.45 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2674,7 +3559,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b20f14d-5c13-471f-93c6-f5e927e9dfcb")
 		(property "Reference" "YellowLight"
-			(at 110.3773 51.2984 0)
+			(at 42.8625 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +3567,7 @@
 			)
 		)
 		(property "Value" "Yellow LED"
-			(at 110.3773 53.8384 0)
+			(at 42.8625 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +3575,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 111.9648 57.6484 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +3584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.9648 57.6484 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +3593,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 111.9648 57.6484 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +3602,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.9648 57.6484 0)
+			(at 44.45 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +3627,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 49.53 0)
+		(at 96.52 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2751,7 +3636,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b95659a-56da-450c-9722-8d20346e0e5a")
 		(property "Reference" "notpMOS"
-			(at 208.28 48.2599 0)
+			(at 102.87 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3645,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 50.7999 0)
+			(at 102.87 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,7 +3654,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 46.99 0)
+			(at 101.6 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +3663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 49.53 0)
+			(at 96.52 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +3672,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 49.53 0)
+			(at 96.52 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3773,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 121.92 97.79 0)
+		(at 85.09 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2897,7 +3782,7 @@
 		(fields_autoplaced yes)
 		(uuid "421004d5-3b7d-46cc-8ee8-78f5b56b0d3f")
 		(property "Reference" "notR1"
-			(at 124.46 96.5199 0)
+			(at 82.55 139.7001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +3791,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 124.46 99.0599 0)
+			(at 82.55 137.1601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3800,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 122.936 98.044 90)
+			(at 84.074 138.176 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3809,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 97.79 0)
+			(at 85.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3818,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 121.92 97.79 0)
+			(at 85.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3103,7 +3988,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 27.94 33.02 0)
+		(at 27.94 21.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3112,25 +3997,23 @@
 		(fields_autoplaced yes)
 		(uuid "4fb5e9aa-f91d-483d-aff5-d89deb93907a")
 		(property "Reference" "ThrBT"
-			(at 31.75 29.9084 0)
+			(at 29.7815 13.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "3.2V"
-			(at 31.75 32.4484 0)
+			(at 29.7815 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1057_1x2032"
-			(at 27.94 31.496 90)
+			(at 29.464 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +4022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 31.496 90)
+			(at 29.464 21.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +4031,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 27.94 33.02 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +4040,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 27.94 33.02 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +4049,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 27.94 33.02 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3175,7 +4058,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 27.94 33.02 0)
+			(at 27.94 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +4153,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM741")
-		(at 134.62 50.8 0)
+		(at 143.51 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3279,7 +4162,7 @@
 		(fields_autoplaced yes)
 		(uuid "63b03744-350a-45bf-938f-e10722087dca")
 		(property "Reference" "powergoodamp"
-			(at 144.78 44.3798 0)
+			(at 153.67 44.3798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +4170,7 @@
 			)
 		)
 		(property "Value" "LM741"
-			(at 144.78 46.9198 0)
+			(at 153.67 46.9198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 135.89 49.53 0)
+			(at 144.78 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3304,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm741.pdf"
-			(at 138.43 46.99 0)
+			(at 147.32 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3313,7 +4196,7 @@
 			)
 		)
 		(property "Description" "Operational Amplifier, DIP-8/TO-99-8"
-			(at 134.62 50.8 0)
+			(at 143.51 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +4312,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 86.36 0)
+		(at 191.77 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3438,7 +4321,7 @@
 		(fields_autoplaced yes)
 		(uuid "81d8e7e4-5272-4282-8c9a-6a4c19527baf")
 		(property "Reference" "andn3"
-			(at 170.18 85.0899 0)
+			(at 198.12 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +4330,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 87.6299 0)
+			(at 198.12 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +4339,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 83.82 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +4348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 86.36 0)
+			(at 191.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +4357,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 86.36 0)
+			(at 191.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,8 +4525,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 15.24 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c08d311-3ee8-461a-b893-218c702b6f83")
+		(property "Reference" "ConnectedGround"
+			(at 15.24 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 15.24 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 15.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11313a8a-9bd2-4805-bd79-04d46cf11139")
+		)
+		(instances
+			(project "drone_power_management_hardware"
+				(path "/62dff5ab-9a67-4e69-9b34-907d3948e181"
+					(reference "ConnectedGround")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 74.93 0)
+		(at 191.77 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3652,7 +4601,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e32b2d1-d4d6-490b-9a23-f9d792646c2c")
 		(property "Reference" "andn2"
-			(at 170.18 73.6599 0)
+			(at 198.12 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +4610,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 76.1999 0)
+			(at 198.12 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +4619,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 72.39 0)
+			(at 196.85 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +4628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 74.93 0)
+			(at 191.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +4637,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 74.93 0)
+			(at 191.77 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3716,7 +4665,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 71.12 88.9 0)
+		(at 101.6 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3725,7 +4674,7 @@
 		(fields_autoplaced yes)
 		(uuid "9daa966b-29aa-4fd5-ad38-8e8610b79e89")
 		(property "Reference" "PowerGoodVcc"
-			(at 71.755 83.82 0)
+			(at 102.235 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +4682,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 71.755 86.36 0)
+			(at 102.235 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +4690,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-F_1x02_P5.0mm_Vertical"
-			(at 71.12 88.9 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +4699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 88.9 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +4708,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 71.12 88.9 0)
+			(at 101.6 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4733,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 62.23 0)
+		(at 191.77 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3793,7 +4742,7 @@
 		(fields_autoplaced yes)
 		(uuid "9de37fe0-a10d-46a7-83c8-582fbca9a0ab")
 		(property "Reference" "andn1"
-			(at 170.18 60.9599 0)
+			(at 198.12 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +4751,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 63.4999 0)
+			(at 198.12 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 59.69 0)
+			(at 196.85 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 62.23 0)
+			(at 191.77 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +4778,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 62.23 0)
+			(at 191.77 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +4806,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 62.23 0)
+		(at 229.87 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +4815,7 @@
 		(fields_autoplaced yes)
 		(uuid "a147e3df-99fc-4608-bfc2-015a7c81290c")
 		(property "Reference" "andp1"
-			(at 208.28 60.9599 0)
+			(at 236.22 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +4824,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 63.4999 0)
+			(at 236.22 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +4833,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 59.69 0)
+			(at 234.95 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +4842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 62.23 0)
+			(at 229.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +4851,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 62.23 0)
+			(at 229.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +4879,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 111.76 48.26 0)
+		(at 101.6 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3939,7 +4888,7 @@
 		(fields_autoplaced yes)
 		(uuid "a37a9740-9311-495d-af75-33fe442f82b5")
 		(property "Reference" "GreenLight"
-			(at 110.1725 41.91 0)
+			(at 100.0125 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +4896,7 @@
 			)
 		)
 		(property "Value" "Green LED"
-			(at 110.1725 44.45 0)
+			(at 100.0125 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +4904,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 111.76 48.26 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3964,7 +4913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 48.26 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3973,7 +4922,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 111.76 48.26 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3982,7 +4931,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 111.76 48.26 0)
+			(at 101.6 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +5026,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 101.6 0)
+		(at 229.87 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4086,7 +5035,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0cd68a3-0bb9-4f72-b07c-38f5f71f95ea")
 		(property "Reference" "routingp1"
-			(at 208.28 100.3299 0)
+			(at 236.22 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +5044,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 102.8699 0)
+			(at 236.22 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 99.06 0)
+			(at 234.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +5062,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 101.6 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +5071,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 101.6 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +5099,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 114.3 0)
+		(at 229.87 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4159,7 +5108,7 @@
 		(fields_autoplaced yes)
 		(uuid "e546e37f-a356-4511-a2b4-5790e45d142b")
 		(property "Reference" "routingp2"
-			(at 208.28 113.0299 0)
+			(at 236.22 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +5117,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 115.5699 0)
+			(at 236.22 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 111.76 0)
+			(at 234.95 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 114.3 0)
+			(at 229.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +5144,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 114.3 0)
+			(at 229.87 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +5172,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 43.18 113.03 0)
+		(at 21.59 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +5181,7 @@
 		(fields_autoplaced yes)
 		(uuid "e735edc1-20eb-49b7-88fc-5b1d85c21b9d")
 		(property "Reference" "Load"
-			(at 48.26 114.2999 0)
+			(at 26.67 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +5190,7 @@
 			)
 		)
 		(property "Value" "DC Motor"
-			(at 48.26 116.8399 0)
+			(at 26.67 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +5199,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 43.18 115.316 0)
+			(at 21.59 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +5208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 115.316 0)
+			(at 21.59 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +5217,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 43.18 113.03 0)
+			(at 21.59 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +5242,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 49.53 0)
+		(at 77.47 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4302,7 +5251,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb8aafdc-bb10-4fb4-b34b-9025c538dd88")
 		(property "Reference" "notnMOS"
-			(at 170.18 48.2599 0)
+			(at 83.82 179.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +5260,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 50.7999 0)
+			(at 83.82 181.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +5269,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 46.99 0)
+			(at 82.55 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4329,7 +5278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 49.53 0)
+			(at 77.47 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4338,7 +5287,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 49.53 0)
+			(at 77.47 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,7 +5315,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 121.92 107.95 0)
+		(at 29.21 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4375,7 +5324,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6f434de-200f-4290-8763-06fdc6bd6e19")
 		(property "Reference" "notR2"
-			(at 124.46 106.6799 0)
+			(at 26.67 182.8801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +5333,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 124.46 109.2199 0)
+			(at 26.67 180.3401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +5342,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 122.936 108.204 90)
+			(at 28.194 181.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 107.95 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +5360,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 121.92 107.95 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +5385,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_SGD")
-		(at 201.93 88.9 0)
+		(at 229.87 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4445,7 +5394,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7997aa6-fe78-4fbe-b441-4bba805e09a4")
 		(property "Reference" "andp3"
-			(at 208.28 87.6299 0)
+			(at 236.22 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +5403,7 @@
 			)
 		)
 		(property "Value" "pMOS Transistor (MOSFET)"
-			(at 208.28 90.1699 0)
+			(at 236.22 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4463,7 +5412,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 207.01 86.36 0)
+			(at 234.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +5421,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 88.9 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +5430,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, source/gate/drain"
-			(at 201.93 88.9 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +5458,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 163.83 99.06 0)
+		(at 191.77 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4518,7 +5467,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc45d00c-577f-42d4-a54d-4a209d831f06")
 		(property "Reference" "routingn1"
-			(at 170.18 97.7899 0)
+			(at 198.12 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +5476,7 @@
 			)
 		)
 		(property "Value" "nMOS Transistor (MOSFET)"
-			(at 170.18 100.3299 0)
+			(at 198.12 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +5485,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 168.91 96.52 0)
+			(at 196.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +5494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 99.06 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +5503,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 163.83 99.06 0)
+			(at 191.77 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
