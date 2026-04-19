@@ -4421,7 +4421,7 @@
 			)
 		)
 	)
-	(global_label "andOutput"
+	(global_label "andOut"
 		(shape input)
 		(at 128.27 55.88 90)
 		(fields_autoplaced yes)
@@ -4433,7 +4433,7 @@
 		)
 		(uuid "e41b229d-3eb9-42c5-96da-7a23704af14d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 43.2189 90)
+			(at 128.27 46.2426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
